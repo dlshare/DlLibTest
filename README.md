@@ -1,6 +1,27 @@
 # DlLibTest
 用于测试我的lib的项目
 
-1.测试dldebuglib
+测试dldebuglib
 
-step1:集成该项目
+功能描述
+
+1.Gradle
+
+project的build.gradle中添加：
+
+classpath 'com.hujiang.aspectjx:gradle-android-plugin-aspectjx:1.0.10'
+
+app的builde.gradle中添加：
+
+apply plugin: 'android-aspectjx'
+
+compile 'com.dlshare:dldebuglog:0.1'
+
+2.使用
+
+在方法名前面添加注解@DlLog
+
+示例及输出
+![image](https://github.com/dlshare/DlLibTest/blob/master/screenshot/dldebuglib_use01.png)
+![image](https://github.com/dlshare/DlLibTest/blob/master/screenshot/dldebuglib_effect01.png)
+
