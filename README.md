@@ -1,5 +1,5 @@
 # DlLibTest,用于测试我的lib的项目
-#### Here I com, I'am `dlshare`.
+#### Here I com, I am `dlshare`.
 ## 测试dldebuglib
 功能描述详见：https://github.com/dlshare/dldebuglog
 ### 1.Gradle
