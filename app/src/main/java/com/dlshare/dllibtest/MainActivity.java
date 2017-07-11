@@ -28,6 +28,9 @@ public class MainActivity extends AppCompatActivity {
         }.start();
     }
 
+    /**
+     * 编写逻辑处理方法的时候不要写在线程里面，使用时可以用多线程包裹
+     */
     @DlLog
     private String getNameFun(String firstName, String lastName) {
         try {
