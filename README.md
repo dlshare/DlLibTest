@@ -1,6 +1,7 @@
 #DlLibTest,用于测试我的lib的项目
+####Finally, here I com, I'am `dlshare`.
 ##测试dldebuglib
-        功能描述详见：https://github.com/dlshare/dldebuglog
+功能描述详见：https://github.com/dlshare/dldebuglog
 ###1.Gradle
         project的build.gradle中添加：
         classpath 'com.hujiang.aspectjx:gradle-android-plugin-aspectjx:1.0.10'
